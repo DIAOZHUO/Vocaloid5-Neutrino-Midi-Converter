@@ -1,0 +1,6 @@
+#!/bin/bash
+
+unset HISTFILE
+BASEDIR=$(dirname "$0")
+FOLDER_NAME=$(basename "$BASEDIR")
+python3 "$BASEDIR""/main.py"
